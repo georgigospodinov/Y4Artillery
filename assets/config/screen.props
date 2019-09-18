@@ -1,0 +1,69 @@
+default background greyscale=128
+
+# X, Y coordinates and sizes are percentages from screen width/height.
+#Play
+button play x=46
+button play y=30
+button play size=10
+
+# Controls
+button controls x=46
+button controls y=45
+
+# Player options
+delta y=7
+player y=10
+player size=5
+player 1 x=15
+player 2 x=75
+
+# percent from box height (which depends on the text size)
+checkbox space=10
+fillbox space=30
+
+# Text on Game Screen
+text turn x=1
+text turn y=3
+text turn size=4
+wind text size=2
+wind text x=1
+wind text y=7
+wind red=0
+wind green=191
+wind blue=255
+text y=13
+text tank 1 x=1
+text tank 2 x=93
+text score size=2
+text score color red=0.0
+text score color green=0.0
+text score color blue=0.0
+text line spacing=20
+
+# back button
+back x=80
+back y=80
+back size=5
+
+# in victory
+victory x=5
+victory y=30
+victory size=7
+ok x=45
+ok y=75
+ok size=5
+
+# controls
+controls size=3
+controls left x=10
+controls right x=70
+controls y=10
+
+# button color
+button color red=128
+button color green=0
+button color blue=255
+
+# play screen
+game width=displayWidth
+game height=displayHeight

@@ -1,0 +1,16 @@
+# Controls
+tank 1 increase elevation=87
+tank 1 decrease elevation=83
+tank 1 increase strength=37
+tank 1 decrease strength=39
+tank 1 move left=65
+tank 1 move right=68
+tank 1 shoot=32
+
+tank 2 increase elevation=87
+tank 2 decrease elevation=83
+tank 2 increase strength=37
+tank 2 decrease strength=39
+tank 2 move left=65
+tank 2 move right=68
+tank 2 shoot=32

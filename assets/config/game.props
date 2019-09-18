@@ -1,0 +1,93 @@
+# All directions need to be degrees 0-359. Preferably in the format 'x.0'.
+# Tank's elevation and strength.
+elevation delta=10.0
+elevation start=30.0
+elevation max=180.0
+elevation min=0.0
+strength delta=50.0
+strength start=1000.0
+strength max=10000.0
+strength min=0.0
+
+# Tank dimensions (in pixels).
+barrel length=40
+barrel width=5
+tank height=30
+tank width=50
+tank 1 mass=60000.0
+tank 2 mass=60000.0
+# http://www.tanks-encyclopedia.com/cold-war/ireland/a34-comet-irish-service/
+tank 1 image=assets/images/Irish-Comet1.png
+tank 2 image=assets/images/Irish-Comet1.png
+tank 1 color red=200
+tank 1 color green=20
+tank 1 color blue=20
+tank 1 stroke=0
+tank 2 color red=20
+tank 2 color green=20
+tank 2 color blue=200
+tank 2 stroke=0
+
+# Shell dimensions (in pixels).
+shell width=10
+shell height=10
+shell mass=25.0
+shell color red=100
+shell color green=255
+shell color blue=100
+shell stroke=0
+# https://fallout.wikia.com/wiki/Cannonball
+shell image=assets/images/shell.png
+# Explosion
+# radius is in pixels
+explosion radius per second=25.0
+# duration is in milliseconds
+explosion duration=2000
+explosion color red=255
+explosion color green=0
+explosion color blue=0
+explosion stroke=0
+# http://www.stickpng.com/img/nature/fire/explosion-circle
+explosion image=assets/images/explosion.png
+
+# Terrain block defaults.
+terrain displacement=30
+terrain roughness=0.7
+block height=5
+block width=5
+block color red=139
+block color green=69
+block color blue=19
+block stroke=0
+# https://www.pexels.com/photo/abstract-background-close-up-construction-214045/
+block image=assets/images/ground.jpeg
+# http://interaztv.com/society/264029
+background image=assets/images/background.jpg
+
+# Forces
+pixels per meter=10
+gravity acceleration=20.8
+gravity direction=270.0
+friction damping=0.995
+drag k1=0.001
+drag k2=0.00001
+move force=120000.0
+impulse factor=0.9
+climb factor=0.9
+stop range=5.0
+# Wind
+air density=1.2041
+wind drag=0.28
+wind change chance=0.01
+max wind speed=40.0
+min wind speed=0.0
+
+# AI
+obstacle view range=100
+ai reduce factor=0.9
+ai elevation change init=20.0
+ai strength change init=100.0
+ai change close to zero=0.05
+ai max move time=2500
+
+win score=3
